@@ -5,15 +5,6 @@
     "my_counter_backend": {
       "type": "motoko",
       "main": "src/my_counter_backend/main.mo"
-    },
-    "my_counter_frontend": {
-      "type": "assets",
-      "source": [
-        "src/my_counter_frontend/assets"
-      ],
-      "dependencies": [
-        "my_counter_backend"
-      ]
     }
   },
   "defaults": {
