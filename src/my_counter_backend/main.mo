@@ -62,7 +62,7 @@ actor Counter {
 
   public shared query func http_request(): async HttpResponse{
       {
-          body = "currentValue: (" # Nat.toText(currentValue) # ")";  //Nat convert Text
+          body = "<html> <body> <h1> currentValue: (" # Nat.toText(currentValue) # ") </h1></body></html>";  //Nat convert Text
           headers = [];
           streaming_strategy = null;
           status_code = 200;
